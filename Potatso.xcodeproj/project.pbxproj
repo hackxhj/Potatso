@@ -10,6 +10,9 @@
 		234575943B38F4EAD3E2B481 /* Pods_Potatso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E558CCABD311741F0CF9DD9 /* Pods_Potatso.framework */; };
 		671F4F760B4AA48CEDC1B834 /* Pods_TodayWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D8D7B7274BAF6E28C980D9 /* Pods_TodayWidget.framework */; };
 		6BF89D48551DF9EC9D65F0BA /* Pods_PotatsoModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972ACD00F18B9E461F9D38B1 /* Pods_PotatsoModel.framework */; };
+		753BA2241D34F694005DFAD9 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753BA2231D34F694005DFAD9 /* YAML.framework */; };
+		753BA2251D34F694005DFAD9 /* YAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753BA2231D34F694005DFAD9 /* YAML.framework */; };
+		85E1D57475E656315CFF5FED /* Pods_PotatsoLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE89CB89689388572C1CDCB6 /* Pods_PotatsoLibraryTests.framework */; };
 		9B07D6B31CB7A6A900182C1B /* PotatsoLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07D6B21CB7A6A900182C1B /* PotatsoLibraryTests.swift */; };
 		9B07D6B51CB7A6A900182C1B /* PotatsoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9B15BD1C21595B000B6541 /* PotatsoLibrary.framework */; };
 		9B07D6BE1CB7AF0000182C1B /* PotatsoModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC6FFEA1CB28B4B00E5EA61 /* PotatsoModel.framework */; };
@@ -312,6 +315,7 @@
 		5800BF48973D41E6DFC2DF35 /* Pods-Potatso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Potatso.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Potatso/Pods-Potatso.debug.xcconfig"; sourceTree = "<group>"; };
 		66AB52504A6434A50F434876 /* Pods-TodayWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodayWidget/Pods-TodayWidget.debug.xcconfig"; sourceTree = "<group>"; };
 		6779B40186E2772C79CE2A52 /* Pods-PotatsoModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotatsoModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PotatsoModel/Pods-PotatsoModel.debug.xcconfig"; sourceTree = "<group>"; };
+		753BA2231D34F694005DFAD9 /* YAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YAML.framework; sourceTree = "<group>"; };
 		83D8D7B7274BAF6E28C980D9 /* Pods_TodayWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E310DB3E84260841595217 /* Pods-TodayWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodayWidget/Pods-TodayWidget.release.xcconfig"; sourceTree = "<group>"; };
 		89E573E7B926BE00ECB260CC /* Pods-Potatso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Potatso.release.xcconfig"; path = "Pods/Target Support Files/Pods-Potatso/Pods-Potatso.release.xcconfig"; sourceTree = "<group>"; };
@@ -861,6 +865,7 @@
 		B8CCC6E41CFDCFD8000E7E2E /* RuleSetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuleSetCell.swift; sourceTree = "<group>"; };
 		B8CCC6E61CFDD99E000E7E2E /* ProxyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxyListViewController.swift; sourceTree = "<group>"; };
 		B8CCC6EA1CFF1501000E7E2E /* ProxyRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProxyRow.swift; path = ../ProxyRow.swift; sourceTree = "<group>"; };
+		BE89CB89689388572C1CDCB6 /* Pods_PotatsoLibraryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PotatsoLibraryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAF05C4CA29869A03E25A65 /* Pods_PotatsoLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PotatsoLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F5D562F9497CEBA25A466F /* Pods-PotatsoLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PotatsoLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-PotatsoLibrary/Pods-PotatsoLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -872,6 +877,7 @@
 			files = (
 				9B07D6BE1CB7AF0000182C1B /* PotatsoModel.framework in Frameworks */,
 				9B07D6B51CB7A6A900182C1B /* PotatsoLibrary.framework in Frameworks */,
+				85E1D57475E656315CFF5FED /* Pods_PotatsoLibraryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,6 +886,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8822CD61D2B861E00AD252C /* StoreKit.framework in Frameworks */,
+				753BA2241D34F694005DFAD9 /* YAML.framework in Frameworks */,
 				B86B08ED1D17FB9B00613014 /* ShadowPath.framework in Frameworks */,
 				9BC600241CB2921C00E5EA61 /* PotatsoBase.framework in Frameworks */,
 				9BDA62621CAE2576007F2581 /* PacketProcessor.framework in Frameworks */,
@@ -928,6 +935,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC600351CB29AEE00E5EA61 /* PotatsoBase.framework in Frameworks */,
+				753BA2251D34F694005DFAD9 /* YAML.framework in Frameworks */,
 				9BC6FFF61CB28C4500E5EA61 /* PotatsoModel.framework in Frameworks */,
 				FE9B3692D19B03821360B886 /* Pods_PotatsoLibrary.framework in Frameworks */,
 			);
@@ -1950,6 +1958,7 @@
 		C8B2149E8757C44C469576D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				753BA2231D34F694005DFAD9 /* YAML.framework */,
 				B8822CD51D2B861E00AD252C /* StoreKit.framework */,
 				B8822CD11D2B81C400AD252C /* libcrypto.a */,
 				B8822CD21D2B81C400AD252C /* libssl.a */,
@@ -1962,6 +1971,7 @@
 				DFAF05C4CA29869A03E25A65 /* Pods_PotatsoLibrary.framework */,
 				83D8D7B7274BAF6E28C980D9 /* Pods_TodayWidget.framework */,
 				972ACD00F18B9E461F9D38B1 /* Pods_PotatsoModel.framework */,
+				BE89CB89689388572C1CDCB6 /* Pods_PotatsoLibraryTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2012,6 +2022,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B07D6B81CB7A6A900182C1B /* Build configuration list for PBXNativeTarget "PotatsoLibraryTests" */;
 			buildPhases = (
+				88F390C2B1E9A3ABC6930775 /* Check Pods Manifest.lock */,
 				AE7363976BC33C0A8FCE6F40 /* [CP] Check Pods Manifest.lock */,
 				9B07D6AC1CB7A6A900182C1B /* Sources */,
 				9B07D6AD1CB7A6A900182C1B /* Frameworks */,
@@ -2019,6 +2030,8 @@
 				9B07D6BC1CB7AA7100182C1B /* CopyFiles */,
 				BA4C15DFC5B5BB3A0133C8EF /* [CP] Embed Pods Frameworks */,
 				8533E9079437E99384941077 /* [CP] Copy Pods Resources */,
+				41F99C8C7058C28EF2293493 /* Embed Pods Frameworks */,
+				AEBD45F5EB183AC73532A0C6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2045,6 +2058,7 @@
 				9B9C520E1CA7A19E00681FE7 /* Fabric */,
 				EE2DCE01E31A764A094282A4 /* [CP] Embed Pods Frameworks */,
 				7F5FECF0328ABB93E7B81EF0 /* [CP] Copy Pods Resources */,
+				B6DD5F986B1BE8E45C090AE8 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2090,6 +2104,7 @@
 				284504308BFDFBB533314E62 /* [CP] Embed Pods Frameworks */,
 				0C0171FD77CBD077C0B79F2C /* [CP] Copy Pods Resources */,
 				9B8193EB1CBE37BB00BE320D /* Framework Hack */,
+				4862F986384DF4BEA725BAAF /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2111,6 +2126,7 @@
 				DAE9B2814A9510C221B3EECC /* [CP] Embed Pods Frameworks */,
 				46E2C5B0876EEEFA2316E577 /* [CP] Copy Pods Resources */,
 				9BC858AF1C34C5AA00992032 /* Framework Hack */,
+				8A1E30CA39C8D98A2790B5DF /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2486,6 +2502,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PotatsoModel/Pods-PotatsoModel-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		41F99C8C7058C28EF2293493 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PotatsoLibraryTests/Pods-PotatsoLibraryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		46E2C5B0876EEEFA2316E577 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2499,6 +2530,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PacketTunnel/Pods-PacketTunnel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4862F986384DF4BEA725BAAF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodayWidget/Pods-TodayWidget-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4F5AFD532093885579A6C0C4 /* [CP] Check Pods Manifest.lock */ = {
@@ -2559,6 +2605,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PotatsoLibraryTests/Pods-PotatsoLibraryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88F390C2B1E9A3ABC6930775 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1E30CA39C8D98A2790B5DF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PacketTunnel/Pods-PacketTunnel-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9B8193EB1CBE37BB00BE320D /* Framework Hack */ = {
@@ -2631,6 +2707,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBD45F5EB183AC73532A0C6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PotatsoLibraryTests/Pods-PotatsoLibraryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DD5F986B1BE8E45C090AE8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Potatso/Pods-Potatso-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B830CC631D2CF55A00FA8E37 /* Confidential */ = {
@@ -3402,6 +3508,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/PotatsoLibrary",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = PotatsoLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -3434,6 +3541,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/PotatsoLibrary",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = PotatsoLibrary/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

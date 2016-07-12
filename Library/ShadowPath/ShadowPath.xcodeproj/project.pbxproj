@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		753BA2221D34F532005DFAD9 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 753BA2211D34F532005DFAD9 /* config.h */; };
 		B81887591D2BFC1B00E41C89 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B81887091D2BFC1B00E41C89 /* LICENSE */; };
 		B818875A1D2BFC1B00E41C89 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = B818870B1D2BFC1B00E41C89 /* aes.h */; };
 		B818875B1D2BFC1B00E41C89 /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = B818870C1D2BFC1B00E41C89 /* asn1.h */; };
@@ -229,7 +230,6 @@
 		B82D7D871CEC6BCE00357F5F /* socks5.m in Sources */ = {isa = PBXBuildFile; fileRef = B82D7D6A1CEC6BCE00357F5F /* socks5.m */; };
 		B82D7D8A1CEC6BE200357F5F /* fmemopen.c in Sources */ = {isa = PBXBuildFile; fileRef = B82D7D881CEC6BE200357F5F /* fmemopen.c */; };
 		B82D7D8B1CEC6BE200357F5F /* fmemopen.h in Headers */ = {isa = PBXBuildFile; fileRef = B82D7D891CEC6BE200357F5F /* fmemopen.h */; };
-		B86B04B11D17DABB00613014 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B86B000A1D17DABA00613014 /* config.h */; };
 		B86B04D81D17DABB00613014 /* commands.c in Sources */ = {isa = PBXBuildFile; fileRef = B86B00391D17DABA00613014 /* commands.c */; };
 		B86B04E21D17DABB00613014 /* allocator.c in Sources */ = {isa = PBXBuildFile; fileRef = B86B00451D17DABA00613014 /* allocator.c */; };
 		B86B04E31D17DABB00613014 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = B86B00461D17DABA00613014 /* error.c */; };
@@ -355,6 +355,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		753BA2211D34F532005DFAD9 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		B81887091D2BFC1B00E41C89 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B818870B1D2BFC1B00E41C89 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
 		B818870C1D2BFC1B00E41C89 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
@@ -579,7 +580,6 @@
 		B82D7D6A1CEC6BCE00357F5F /* socks5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = socks5.m; sourceTree = "<group>"; };
 		B82D7D881CEC6BE200357F5F /* fmemopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fmemopen.c; sourceTree = "<group>"; };
 		B82D7D891CEC6BE200357F5F /* fmemopen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmemopen.h; sourceTree = "<group>"; };
-		B86B000A1D17DABA00613014 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		B86B00391D17DABA00613014 /* commands.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = commands.c; sourceTree = "<group>"; };
 		B86B00451D17DABA00613014 /* allocator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = allocator.c; sourceTree = "<group>"; };
 		B86B00461D17DABA00613014 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
@@ -1274,12 +1274,12 @@
 		B86BFFF61D17DABA00613014 /* shadowsocks-libev */ = {
 			isa = PBXGroup;
 			children = (
-				B86B000A1D17DABA00613014 /* config.h */,
 				B86B00351D17DABA00613014 /* libcork */,
 				B86B00AE1D17DABA00613014 /* libev */,
 				B86B00CD1D17DABA00613014 /* libipset */,
 				B86B03E71D17DABA00613014 /* libudns */,
 				B86B04431D17DABB00613014 /* src */,
+				753BA2211D34F532005DFAD9 /* config.h */,
 			);
 			path = "shadowsocks-libev";
 			sourceTree = "<group>";
@@ -1348,6 +1348,7 @@
 				B818875D1D2BFC1B00E41C89 /* asn1t.h in Headers */,
 				B82847811CEB10B800820456 /* actions.h in Headers */,
 				B81888941D2C09DA00E41C89 /* randombytes_sysrandom.h in Headers */,
+				753BA2221D34F532005DFAD9 /* config.h in Headers */,
 				B81888651D2C09DA00E41C89 /* crypto_auth_hmacsha512.h in Headers */,
 				B828479F1CEB111000820456 /* gateway.h in Headers */,
 				B81888611D2C09DA00E41C89 /* crypto_aead_aes256gcm.h in Headers */,
@@ -1491,7 +1492,6 @@
 				B81887891D2BFC1B00E41C89 /* pkcs12.h in Headers */,
 				B81888641D2C09DA00E41C89 /* crypto_auth_hmacsha256.h in Headers */,
 				B82D7D8B1CEC6BE200357F5F /* fmemopen.h in Headers */,
-				B86B04B11D17DABB00613014 /* config.h in Headers */,
 				B81888831D2C09DA00E41C89 /* crypto_stream.h in Headers */,
 				B81888851D2C09DA00E41C89 /* crypto_stream_chacha20.h in Headers */,
 				B818878A1D2BFC1B00E41C89 /* pkcs7.h in Headers */,
